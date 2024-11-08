@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+:root {
+  --color-fondo: beige;
+  --color-primario: hsl(60, 5%, 18%);
+  --color-texto-primario: white;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-fondo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje {
+  background-color: var(--color-primario);
+  color: var(--color-texto-primario);
+  font-size: 2em;
+
+}
